@@ -40,3 +40,23 @@
 #red {
   background-color: #EB7d5B;
 }
+
+.btn {
+  position: absolute;
+  z-index: 10px;
+
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 10px;
+  font-size: large;
+}
+
+#next-btn {
+  top: 40%;
+  right: 2%;
+}
+
+#prev-btn {
+  top: 40%;
+  left: 2%;
+}

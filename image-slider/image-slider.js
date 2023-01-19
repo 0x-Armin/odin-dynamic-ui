@@ -15,3 +15,9 @@ const prev = () => {
   currX = currX === 0 ? -80 : (currX + 20) % 100;
   addTranslationToStyle(currX);
 }
+
+const nextBtn = document.getElementById('next-btn');
+nextBtn.addEventListener('click', next);
+
+const prevBtn = document.getElementById('prev-btn');
+prevBtn.addEventListener('click', prev);
