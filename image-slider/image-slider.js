@@ -21,3 +21,16 @@ nextBtn.addEventListener('click', next);
 
 const prevBtn = document.getElementById('prev-btn');
 prevBtn.addEventListener('click', prev);
+
+const moveToImg = (event) => {
+  currX = event.srcElement.index * -20;
+  addTranslationToStyle(currX);
+}
+
+const smallDotsArr = document.querySelectorAll('.small-dot');
+let i = 0;
+smallDotsArr.forEach((smallDot) => {
+  smallDot.index = i;
+  i++;
+  smallDot.addEventListener('click', (event) => moveToImg(event));
+});
