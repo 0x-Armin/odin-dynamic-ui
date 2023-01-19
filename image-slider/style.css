@@ -1,0 +1,12 @@
+#frame {
+  height: 200px;
+  width: 20vw;
+  margin: auto;
+}
+
+#wide-image {
+  height: 200px;
+  width: 100vw;
+
+  transform: translateX(-100vw);
+}
