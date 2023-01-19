@@ -60,3 +60,19 @@
   top: 40%;
   left: 2%;
 }
+
+#small-dots-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 10vw;
+  margin: 10px auto;
+}
+
+.small-dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+
+  background-color: lightgray;
+}
