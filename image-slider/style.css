@@ -76,3 +76,7 @@
 
   background-color: lightgray;
 }
+
+.selected-dot {
+  background-color: lightblue;
+}
