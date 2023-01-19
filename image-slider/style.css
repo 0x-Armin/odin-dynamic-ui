@@ -2,11 +2,41 @@
   height: 200px;
   width: 20vw;
   margin: auto;
+
+  position: relative;
+  overflow: hidden;
 }
 
 #wide-image {
   height: 200px;
   width: 100vw;
 
-  transform: translateX(-100vw);
+  display: flex;
+
+  position: absolute;
+}
+
+.image {
+  height: 200px;
+  width: 20vw;
+}
+
+#purple {
+  background-color: #442288;
+}
+
+#blue {
+  background-color: #6CA2EA;
+}
+
+#green {
+  background-color: #B5D33D;
+}
+
+#yellow {
+  background-color: #FED23F;
+}
+
+#red {
+  background-color: #EB7d5B;
 }
